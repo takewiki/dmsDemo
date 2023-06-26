@@ -6,7 +6,7 @@ shinyUI(dashboardPage(skin = "blue",
                     
                 
                     
-                    dashboardHeader(title = app_title,titleWidth = '200px',
+                    dashboardHeader(title = app_title,titleWidth = '300px',
                                     tags$li(class = "dropdown", style = "padding: 8px;",
                                             uiOutput('show_user')),
                                     
